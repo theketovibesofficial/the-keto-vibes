@@ -207,3 +207,17 @@ nav a{
 }
 
 }
+/* ===========================
+   Footer Links
+=========================== */
+
+footer a{
+    color:white;
+    text-decoration:none;
+    margin:0 8px;
+    font-weight:bold;
+}
+
+footer a:hover{
+    color:#ffe082;
+}
