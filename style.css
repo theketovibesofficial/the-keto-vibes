@@ -221,3 +221,58 @@ footer a{
 footer a:hover{
     color:#ffe082;
 }
+/* ==========================
+   Featured Articles Section
+========================== */
+
+.featured-posts {
+    padding: 70px 10%;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.featured-posts h2 {
+    font-size: 2rem;
+    color: #2e7d32;
+    margin-bottom: 40px;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.post-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.post-card h3 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.post-card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.post-card a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-card a:hover {
+    text-decoration: underline;
+}
