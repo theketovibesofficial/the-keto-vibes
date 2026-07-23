@@ -90,3 +90,36 @@ footer p {
 .btn:hover {
     background: #1b5e20;
 }
+/* ===== Features Section ===== */
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 30px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+}
+
+.feature-card h3 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    line-height: 1.7;
+    color: #555;
+}
