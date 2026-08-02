@@ -391,3 +391,37 @@ Featured Articles Section
 .table-of-contents a:hover{
     text-decoration:underline;
 }
+.recommended-box{
+background:#eef8ee;
+border:2px solid #2e7d32;
+padding:30px;
+border-radius:12px;
+margin-top:50px;
+text-align:center;
+}
+
+.recommended-box h2{
+color:#2e7d32;
+margin-bottom:15px;
+}
+
+.recommended-box p{
+font-size:18px;
+margin-bottom:25px;
+line-height:1.7;
+}
+
+.recommend-btn{
+display:inline-block;
+background:#2e7d32;
+color:white;
+padding:14px 28px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.recommend-btn:hover{
+background:#1b5e20;
+}
