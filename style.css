@@ -425,3 +425,41 @@ transition:.3s;
 .recommend-btn:hover{
 background:#1b5e20;
 }
+/* ==========================
+Trust Section
+========================== */
+
+.trust-section{
+padding:70px 10%;
+text-align:center;
+background:#ffffff;
+}
+
+.trust-section h2{
+font-size:2rem;
+color:#2e7d32;
+margin-bottom:40px;
+}
+
+.trust-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.trust-card{
+background:#f8f9f5;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.trust-card h3{
+color:#2e7d32;
+margin-bottom:12px;
+}
+
+.trust-card p{
+line-height:1.7;
+color:#555;
+}
