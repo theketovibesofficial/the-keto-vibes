@@ -463,3 +463,11 @@ margin-bottom:12px;
 line-height:1.7;
 color:#555;
 }
+.featured-image{
+    width:100%;
+    max-width:800px;
+    display:block;
+    margin:25px auto;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
