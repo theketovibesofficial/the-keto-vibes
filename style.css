@@ -345,7 +345,7 @@ Featured Articles Section
     border-radius: 12px;
     margin: 30px 0;
 }
-..featured-image {
+.featured-image {
     display: block;
     width: 100%;
     max-width: 100%;
