@@ -476,4 +476,22 @@ color:#555;
     height: auto;
     border-radius: 12px;
     margin: 20px auto 30px;
+}/* Advanced Amino CTA Button */
+.cta-button {
+    display: inline-block;
+    background-color: #2e7d32;
+    color: #ffffff;
+    padding: 14px 28px;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #256628;
+    color: #ffffff;
+    transform: translateY(-2px);
 }
