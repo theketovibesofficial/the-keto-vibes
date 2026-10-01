@@ -99,10 +99,17 @@ footer p {
     padding: 50px 30px;
     flex-wrap: wrap;
 }
-
+.posts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 30px;
+    flex-wrap: wrap;
+}
 .feature-card {
     background: white;
     width: 300px;
+    box-sizing: border-box;
     padding: 30px;
     border-radius: 12px;
     text-align: center;
@@ -246,6 +253,8 @@ Featured Articles Section
 
 .post-card {
     background: #ffffff;
+    width: 300px;
+    box-sizing: border-box;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
