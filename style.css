@@ -116,11 +116,25 @@ footer p {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: 0.3s;
 }
+.feature-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 
+.feature-link:hover {
+    transform: translateY(-3px);
+}
 .feature-card:hover {
     transform: translateY(-8px);
 }
-
+.section-title {
+    text-align: center;
+    color: #2e7d32;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 5px 0 30px;
+}
 .feature-card h3 {
     color: #2e7d32;
     margin-bottom: 15px;
